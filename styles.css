@@ -12,12 +12,101 @@ html {
 
 body {
     min-height: 100%;
+    min-width: 100%;
+    color: white;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    margin: 15px 25px 0px 30px;
 }
 
 
+.introLinks {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    flex-grow: 1;
+}
+
+.linksRight {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 259.65px;
+    margin-right: -20px;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.introImage {
+    display: flex;
+    justify-content: center;
+    height: 440px;
+}
+
+.intro > h1 {
+    margin: 25px;
+}
+
+.intro > p {
+    margin: 25px;
+}
+
+.middle1 {
+    margin-top: 300px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 28.125em;
+    grid-row-gap: 20px;
+    text-align: center;
+    margin-left: -230px;
+
+}
+
+.applet1 {
+    width: 388px;
+}
+
+.applet2 {
+    width: 435px;
+}
+
+.applet3 {
+    width: 411px;
+    margin-top: 90px;
+}
+
+
+.applet4 {
+    width: 425px;
+    margin-top: 90px;
+}
+
+.applet1 > h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .background {
+    display: flex;
     position: absolute;
+    top: 599px;
     z-index: -1;
+    object-fit: cover;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/* p {
+    margin-left: 25px;
+} */
